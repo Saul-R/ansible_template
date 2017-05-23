@@ -2,7 +2,7 @@
 
 I'm following the [ansible-best-practises](http://docs.ansible.com/ansible/playbooks_best_practices.html) and I got the external (galaxy) role management from [this](https://github.com/enginyoyen/ansible-best-practises).
 
-I included a `post-receive` hook on my development pc that goes like this:
+I included a `pre-push` hook on my development pc that goes like this:
 
 ```
 #!/bin/bash
