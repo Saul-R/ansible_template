@@ -10,7 +10,7 @@ TEST_NODE_NAME="mgmt"
 TEST_STATUS=$(vagrant global-status | grep $TEST_NODE_NAME)
 
 if [[ -z ${TEST_STATUS} ]]; then
-  echo "No test env "
+  echo "No test env"
 else
   vagrant ssh $TEST_NODE_NAME -c "cd workspace/ansible_template && git pull"
 fi
