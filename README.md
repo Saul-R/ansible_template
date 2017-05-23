@@ -1,6 +1,6 @@
 # ansible_template
 
-I'm following the [ansible-best-practises](http://docs.ansible.com/ansible/playbooks_best_practices.html) and I got the external (galaxy) role management from [this](https://github.com/enginyoyen/ansible-best-practises)
+I'm following the [ansible-best-practises](http://docs.ansible.com/ansible/playbooks_best_practices.html) and I got the external (galaxy) role management from [this](https://github.com/enginyoyen/ansible-best-practises).
 
 #### File hierarchy
 
